@@ -1,0 +1,39 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: table;
+}
+
+.card-container {
+    width: 80%;
+    display: table;
+    margin: 100px auto 0 25px;
+}
+
+.card {
+    width: 400px;
+    display: table;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.05);
+    margin: 50px 25px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.img-card {
+    display: block;
+    margin: 6%;
+    width: 88%;
+    max-width: 88%;
+    height: 300px;
+    border-radius: 5%;
+    background-position: center;
+}
+
+.img-card img {
+    display: block;
+    background-size: cover;
+}

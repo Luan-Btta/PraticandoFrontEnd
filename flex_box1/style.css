@@ -1,0 +1,23 @@
+.my-container {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: 60px auto;
+    background-color: blueviolet;
+    /* flex-direction: row;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap-reverse; */
+
+    flex-flow: column wrap;
+
+    justify-content: space-evenly;
+}
+
+.my-item {
+    height: 150px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    padding: 30px;
+    border: 4px solid black;
+    flex-basis: 10%;
+}

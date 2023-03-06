@@ -4,6 +4,18 @@ body {
 }
 
 .my-box {
-    background-color: blanchedalmond;
+    background-color: aquamarine;
     height: 100px;
-} 
+}
+
+.container .div1 {
+    background-color: azure;
+}
+
+.container .div2 {
+    background-color: blueviolet;
+}
+
+.container .div3 {
+    background-color: olivedrab;
+}
